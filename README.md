@@ -34,9 +34,9 @@ Backend user: admin / Abc123
 
 ## Setup:
 
-### Create DB & import defaultcms.sql
+### 1. Create DB & import defaultcms.sql
 
-### Change db (file: .env)
+### 2. Change db (file: .env)
 	DB_CONNECTION=mysql
    	DB_HOST=127.0.0.1
    	DB_PORT=3306
@@ -45,7 +45,7 @@ Backend user: admin / Abc123
    	DB_PASSWORD=
    	DB_TABLEPREFIX=app_
 
-### Change application config (file:  config/app_portal.php)
+### 3. Change application config (file:  config/app_portal.php)
  
     // Version
    	$config['application_version'] = '1.0';
@@ -59,7 +59,7 @@ Backend user: admin / Abc123
    	
    	.....
 
-### Naming Conventions:
+### 4. Naming Conventions:
 
 	Controllers & Models (PHP classes):
 	Each English word must start with a capital letter.
@@ -75,7 +75,7 @@ Backend user: admin / Abc123
 	Use only lowercase letters.
 
 
-### How to deploy
+### 5. How to deploy
 	
 	# Modify .env
 	From "APP_ENV=local" to "APP_ENV=production"
