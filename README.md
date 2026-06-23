@@ -89,7 +89,7 @@ Backend user: admin / Abc123
 	php artisan view:cache
 
 	# Minify js & css
-	node node public/developer/compress-assets.cjs
+	node public/developer/compress-assets.cjs
 
 	# Package the source code (excluding node_modules and public/developer)
 	# Upload source code to server
